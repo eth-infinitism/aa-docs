@@ -1,7 +1,7 @@
 Account Abstraction - EIP 4337
 ===================================
 
-This project is an implementation of EIP-4337 Account Abstraction
+This project is an implementation of `EIP-4337<https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4337.md>`_ Account Abstraction
 
 This project provides:
 
