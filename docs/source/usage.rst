@@ -6,29 +6,19 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To install locally, do:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   git clone https://github.com/eth-infinitism/account-abstraction.git
+   cd account-abstraction
+   yarn install
+   yarn test
+   
+To run a sample operation against the goerli miner do
 
-Creating recipes
-----------------
+.. code-block:: console
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   export MNEMONIC_FILE=<account-on-goerli>
+   yarn runop-goerli
 
