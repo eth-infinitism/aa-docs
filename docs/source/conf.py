@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Account Abstraction'
+copyright = '2022, Infinitism'
+author = 'Dror Tirosh'
 
 release = '0.1'
 version = '0.1.0'
