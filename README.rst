@@ -1,9 +1,7 @@
-Template for the Read the Docs tutorial
+Account Abstraction documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This repo is the source for <https://aadocs.readthedocs.io>
 
-Read the tutorial here:
-
+Based on the default readthedoc tutorial at:
 https://docs.readthedocs.io/en/stable/tutorial/
