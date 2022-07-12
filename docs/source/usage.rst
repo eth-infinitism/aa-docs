@@ -52,7 +52,7 @@ Just JSON artifacts:
 
    artifact = require('@account-abstraction/contracts/artifacts/EntryPoint.json')
 
-js/ts code::
+js/ts code:
 
 .. code-block:: javsascript
 
