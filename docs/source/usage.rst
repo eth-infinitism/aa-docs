@@ -27,4 +27,33 @@ To run a sample operation against the goerli miner do
 .. code-block:: console
 
    yarn run runop-goerli
+   
+Just using the Contracts:
+------------------------
+
+.. code-block:: console
+
+   yarn install @account-abstraction/contracts
+   
+From solidity code:
+
+.. code-block:: javascript
+
+   ```
+   import "@account-abstraction/contracts/BaseWallet.sol";
+   
+   contract MyContract is BaseWallet { 
+     ...
+   }
+   ```
+
+Just JSON artifacts:
+.. code-block:: javsascript
+   artifact = require('@account-abstraction/contracts/artifacts/EntryPoint.json')
+
+js/ts code::
+.. code-block:: javsascript
+   const {EntryPoint__factory} = require("@account-abstraction/contracts/typechain/factories/EntryPoint__factory");
+   ...
+   const entryPoint = EntryPoint__factory.connect(entryPointAddress, signer)
 
