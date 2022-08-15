@@ -23,8 +23,8 @@ how to :ref:`installation` the project.
 
 .. note::
 
-   The contracts of the project are audited. 
-   
+   The contracts of the project are audited.
+
    The client library is under active development.
 
 Contents
