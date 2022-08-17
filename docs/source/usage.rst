@@ -14,7 +14,7 @@ To install locally, do:
    cd account-abstraction
    yarn install
    yarn test
-   
+
 To run a sample flow, calling locally the ``EntryPoint.handleOps()``
 (note that for non-local network, you need to set ``MNEMONIC_FILE`` environment var to an account that has some eth)
 
@@ -27,21 +27,21 @@ To run a sample operation against the goerli miner do
 .. code-block:: console
 
    yarn run runop-goerli
-   
+
 Just using the Contracts:
 ------------------------
 
 .. code-block:: console
 
-   yarn install @account-abstraction/contracts
-   
+   yarn add @account-abstraction/contracts
+
 From solidity code:
 
 .. code-block:: javascript
 
    import "@account-abstraction/contracts/BaseWallet.sol";
-   
-   contract MyContract is BaseWallet { 
+
+   contract MyContract is BaseWallet {
      ...
    }
 
