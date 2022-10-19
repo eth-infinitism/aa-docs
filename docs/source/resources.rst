@@ -28,13 +28,30 @@ A reference implementation of a bundler:
 git: https://github.com/eth-infinitism/bundler
 
 
-DevCon Bogota presentation:
----------------------------
-https://bit.ly/aadevcon
-
 ETH-Bogota workshop presentation:
 ------------------------------
+
+
+https://www.youtube.com/watch?v=xHWlJiL_iZA
+
 https://bit.ly/aawallet1
+
+
+DevCon Bogota presentation:
+---------------------------
+
+https://bit.ly/aadevcon
+
+https://www.youtube.com/watch?v=QuYZWJj65AY
+
+
+DevCon Account-Abstraction Panel
+--------------------------------
+
+Featuring David Hoffman (host), Vitalik Butern, Yoav Weiss, Julian Niset, lightclient
+
+https://www.youtube.com/watch?v=WsZBymiyT-8
+
 
 Discord channel:
 ----------------
