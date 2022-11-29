@@ -48,7 +48,7 @@ https://www.youtube.com/watch?v=QuYZWJj65AY
 DevCon Account-Abstraction Panel
 --------------------------------
 
-Featuring David Hoffman (host), Vitalik Butern, Yoav Weiss, Julian Niset, lightclient
+Featuring David Hoffman (host), Vitalik Buterin, Yoav Weiss, Julian Niset, lightclient
 
 https://www.youtube.com/watch?v=WsZBymiyT-8
 
